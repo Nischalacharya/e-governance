@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+@layer base {
+	body {
+		@apply font-[Roboto];
+		@apply bg-[#f7f7f7];
+	}
+
+	li {
+		@apply px-4;
+		@apply cursor-pointer;
+	}
+}
+
+.header-banner {
+	background: url(./assets/header-banner.png) no-repeat center center/cover;
+}
